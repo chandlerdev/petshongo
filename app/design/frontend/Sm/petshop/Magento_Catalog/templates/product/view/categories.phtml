@@ -1,0 +1,30 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// phpcs:disable Magento2.Templates.ThisInTemplate.FoundThis
+
+/**
+ * Product view template
+ *
+ * @var $block \Magento\Catalog\Block\Product\View\Description
+ */
+?>
+
+<div class="categories">
+    <div class="type"><?php echo __('Categories:');?></div> 
+    <div class="value">
+    <?php 
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $product = $objectManager->get('Magento\Framework\Registry')->registry('current_product');
+    $categories = $product->getCategoryIds();
+    foreach($categories as $category){
+       $catData = $objectManager->create('Magento\Catalog\Model\Category')->load($category);
+       echo '<span>'.$catData->getName().'</span>';
+    }
+
+    ?>
+    </div>
+</div>

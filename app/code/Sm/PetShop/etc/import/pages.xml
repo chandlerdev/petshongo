@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+<root>
+  <pages>
+    <cms_item>
+      <title>404 Not Found</title>
+      <identifier>no-route</identifier>
+      <content_heading>Whoops, our bad...</content_heading>
+      <content><![CDATA[<dl>
+<dt>The page you requested was not found, and we have a fine guess why.</dt>
+<dd>
+<ul class="disc">
+<li>If you typed the URL directly, please make sure the spelling is correct.</li>
+<li>If you clicked on a link to get here, the link is outdated.</li>
+</ul></dd>
+</dl>
+<dl>
+<dt>What can you do?</dt>
+<dd>Have no fear, help is near! There are many ways you can get back on track with Magento Store.</dd>
+<dd>
+<ul class="disc">
+<li><a href="#" onclick="history.go(-1); return false;">Go back</a> to the previous page.</li>
+<li>Use the search bar at the top of the page to search for your products.</li>
+<li>Follow these links to get you back on track!<br /><a href="{{store url=""}}">Store Home</a> <span class="separator">|</span> <a href="{{store url="customer/account"}}">My Account</a></li></ul></dd></dl>
+]]></content>
+      <is_active>1</is_active>
+      <page_layout>2columns-right</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Best Responsive Magento 2 Shopping Theme - Petshop</title>
+      <identifier>home-demo-01</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="slidershow-container clearfix">
+<div class="slidershow-content">
+<div class="slider-show nav-style-1 nav-style-1-slidershow-big dot-style-1 hover-to-show">
+<div data-owl="owl-slider" data-autoplay="true" data-nav="true" data-dots="false" data-screen0="1" data-screen481="1" data-screen768="1" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="1" data-autoplayhoverpause="true" data-loop="true" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">
+<div class="owl-carousel owl-theme">
+<div class="item"><a title="Slide 1" href="#"><img src="{{media url="wysiwyg/slidershow/home-1/item-1.jpg"}}" alt="Slide Image"></a></div>
+<div class="item"><a title="Slide 1" href="#"><img src="{{media url="wysiwyg/slidershow/home-1/item-2.jpg"}}" alt="Slide Image"></a></div>
+<div class="item"><a title="Slide 1" href="#"><img src="{{media url="wysiwyg/slidershow/home-1/item-3.jpg"}}" alt="Slide Image"></a></div>
+</div>
+<div class="loading-content"><span class="hidden">Loading...</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="service-top" style="margin-bottom: 110px;">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-sm-6">
+<div class="item item1 wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+<div class="sv-icon"><img src="{{media url="wysiwyg/icon/icon1.png"}}" alt=""></div>
+<div class="sv-content">
+<h3>Pet Training</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="item item2 wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.6s">
+<div class="sv-icon"><img src="{{media url="wysiwyg/icon/icon2.png"}}" alt=""></div>
+<div class="sv-content">
+<h3>Pet Grooming</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="item item3 wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.9s">
+<div class="sv-icon"><img src="{{media url="wysiwyg/icon/icon3.png"}}" alt=""></div>
+<div class="sv-content">
+<h3>Care Service</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="item item4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.2s">
+<div class="sv-icon"><img src="{{media url="wysiwyg/icon/icon4.png"}}" alt=""></div>
+<div class="sv-content">
+<h3>Pet Adoption</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container title-style-1">
+<div class="block-about-us block">
+<div class="block-title"><strong>Why Choose Us</strong>
+<div class="posttext">Our food does not contain artificial preservatives, so it must be kept frozen to avoid expiration ahead of time.</div>
+</div>
+<div class="block-content">
+<div class="inner-content">
+<div class="col-left-content">
+<div class="item item1 wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="0.3s">
+<div class="image"><img src="{{media url="wysiwyg/icon/icon-1.png"}}" alt=""></div>
+<div class="info">
+<h3>Healthy PET NUTRITIONs</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+</div>
+</div>
+<div class="item item2 wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="0.6s">
+<div class="image"><img src="{{media url="wysiwyg/icon/icon-2.png"}}" alt=""></div>
+<div class="info">
+<h3>NATURAL PREBIOTIC FIBER</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+</div>
+</div>
+<div class="item item3 wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="0.9s">
+<div class="image"><img src="{{media url="wysiwyg/icon/icon-3.png"}}" alt=""></div>
+<div class="info">
+<h3>Modern pet toy</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+</div>
+</div>
+</div>
+<div class="col-center-content d-none d-xl-block wow zoomIn" data-wow-duration="0.3s" data-wow-delay="1.1s"><img src="{{media url="wysiwyg/banner/about-center.jpg"}}" alt="">
+<div class="info-contact">
+<h3>Hotline Contact</h3>
+<h2>1-800-619-746</h2>
+</div>
+</div>
+<div class="col-right-content">
+<div class="item item4 wow fadeInRight" data-wow-duration="0.3s" data-wow-delay="0.3s">
+<div class="image"><img src="{{media url="wysiwyg/icon/icon-4.png"}}" alt=""></div>
+<div class="info">
+<h3>Quality &amp; Safety</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+</div>
+</div>
+<div class="item item5 wow  fadeInRight" data-wow-duration="0.3s" data-wow-delay="0.6s">
+<div class="image"><img src="{{media url="wysiwyg/icon/icon-5.png"}}" alt=""></div>
+<div class="info">
+<h3>Happy Pets</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+</div>
+</div>
+<div class="item item6 wow fadeInRight" data-wow-duration="0.3s" data-wow-delay="0.9s">
+<div class="image"><img src="{{media url="wysiwyg/icon/icon-6.png"}}" alt=""></div>
+<div class="info">
+<h3>Positive Reviews</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="listingtab-style title-style-1" style="margin-bottom: 50px;">{{block class="Sm\ListingTabs\Block\ListingTabs" template="Sm_ListingTabs::default.phtml" title="featured Products" type_show="slider" type_listing="" display_countdown="0" type_filter="categories" category_tabs="4,20,6,39,40" order_by="created_at" order_dir="ASC" limitation="20" posttext="Our food does not contain artificial preservatives, so it must be kept frozen to avoid expiration ahead of time." data-autoplay="false" data-nav="true" data-dots="true" data-screen0="1" data-screen481="2" data-screen768="3" data-screen992="4" data-screen1200="5" data-screen1441="5" data-screen1681="6" data-screen1920="6" data-margin="30" data-autoplayhoverpause="true" data-loop="true" data-center="false" data-stagepadding="10" data-mousedrag="true" data-touchdrag="true"}}</div>
+<div class="banner-image" style="margin-bottom: 50px;"><a class="banner" title="Banner Image" href="#"><img class="mark-lazy" src="{{media url="wysiwyg/banner/item-1.png"}}" alt=""></a></div>
+<div class="container title-style-1">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::list-deal.phtml" title_module="Best Sellers" product_source="special_products" select_category="" product_limitation="7" display_countdown="1" date_to="" posttext="Our food does not contain artificial preservatives, so it must be kept frozen to avoid expiration ahead of time."}}</div>
+<div class="container">
+<div class="block-banner d-none d-md-block" style="margin-bottom: 110px;"><img src="{{media url="wysiwyg/banner/banner.jpg"}}" alt="">
+<div class="inner-content">
+<h3 class="title">FRESHPET SELECT DOG FOOD</h3>
+<ul>
+<li><a href="#">100% NATURAL Farm Raised Chicken</a></li>
+<li><a href="#">NEVER any Preservatives</a></li>
+<li><a href="#">NO MEAT MEALS or By-product Meals</a></li>
+</ul>
+<a class="button" href="#">explore</a></div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-4">
+<div class="product-slider">
+<div data-owl="owl-slider" data-autoplay="false" data-nav="false" data-dots="false" data-screen0="1" data-screen481="1" data-screen768="2" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="30" data-autoplayhoverpause="true" data-loop="false" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::list-slider.phtml" title_module="New Arrival" product_source="lastest_products" select_category="" product_limitation="6" display_countdown="0" date_to="" posttext="block-banner-1"}}</div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="product-slider">
+<div data-owl="owl-slider" data-autoplay="false" data-nav="false" data-dots="false" data-screen0="1" data-screen481="1" data-screen768="2" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="30" data-autoplayhoverpause="true" data-loop="false" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::list-slider.phtml" title_module="On Sale" product_source="best_sellers" select_category="" product_limitation="6" display_countdown="0" date_to="" posttext="block-banner-2"}}</div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="product-slider">
+<div data-owl="owl-slider" data-autoplay="false" data-nav="false" data-dots="false" data-screen0="1" data-screen481="1" data-screen768="2" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="30" data-autoplayhoverpause="true" data-loop="false" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::list-slider.phtml" title_module="Top Rated" product_source="other_products" select_category="" product_limitation="6" display_countdown="0" date_to="" posttext="block-banner-3"}}</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="block block-brands">
+<div class="block-content">
+<div class="nav-style-2 hover-to-show absolute-nav">
+<div data-owl="owl-slider" data-autoplay="false" data-nav="true" data-dots="false" data-screen0="2" data-screen481="3" data-screen768="4" data-screen992="5" data-screen1200="5" data-screen1441="6" data-screen1681="5" data-screen1920="5" data-margin="40" data-autoplayhoverpause="true" data-loop="false" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">
+<div class="owl-carousel owl-theme">
+<div class="item"><a title="Brand 1" href="#"><img class="mark-lazy" src="{{media url="wysiwyg/brand/item-1.jpg"}}" alt="Brand Image" width="225" height="70"></a></div>
+<div class="item"><a title="Brand 1" href="#"><img class="mark-lazy" src="{{media url="wysiwyg/brand/item-2.jpg"}}" alt="Brand Image" width="70" height="70"></a></div>
+<div class="item"><a title="Brand 1" href="#"><img class="mark-lazy" src="{{media url="wysiwyg/brand/item-3.jpg"}}" alt="Brand Image" width="86" height="70"></a></div>
+<div class="item"><a title="Brand 1" href="#"><img class="mark-lazy" src="{{media url="wysiwyg/brand/item-4.jpg"}}" alt="Brand Image" width="198" height="70"></a></div>
+<div class="item"><a title="Brand 1" href="#"><img class="mark-lazy" src="{{media url="wysiwyg/brand/item-5.jpg"}}" alt="Brand Image" width="236" height="70"></a></div>
+<div class="item"><a title="Brand 1" href="#"><img class="mark-lazy" src="{{media url="wysiwyg/brand/item-1.jpg"}}" alt="Brand Image" width="225" height="70"></a></div>
+<div class="item"><a title="Brand 1" href="#"><img class="mark-lazy" src="{{media url="wysiwyg/brand/item-2.jpg"}}" alt="Brand Image" width="70" height="70"></a></div>
+</div>
+<div class="loading-content"><span class="hidden">Loading...</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[<move element="page.messages" destination="page.wrapper" before="-"/>]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Enable Cookies</title>
+      <identifier>enable-cookies</identifier>
+      <content_heading>What are Cookies?</content_heading>
+      <content><![CDATA[<div class="enable-cookies cms-content">
+<p>"Cookies" are little pieces of data we send when you visit our store. Cookies help us get to know you better and personalize your experience. Plus they help protect you and other shoppers from fraud.</p>
+<p style="margin-bottom: 20px;">Set your browser to accept cookies so you can buy items, save items, and receive customized recommendations. Here’s how:</p>
+<ul>
+<li><a href="https://support.google.com/accounts/answer/61416?hl=en" target="_blank">Google Chrome</a></li>
+<li><a href="http://windows.microsoft.com/en-us/internet-explorer/delete-manage-cookies" target="_blank">Internet Explorer</a></li>
+<li><a href="http://support.apple.com/kb/PH19214" target="_blank">Safari</a></li>
+<li><a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank">Mozilla/Firefox</a></li>
+</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Privacy and Cookie Policy</title>
+      <identifier>privacy-policy-cookie-restriction-mode</identifier>
+      <content_heading>Privacy and Cookie Policy</content_heading>
+      <content><![CDATA[<div class="privacy-policy cms-content">
+    <div class="message info">
+        <span>
+            Please replace this text with you Privacy Policy.
+            Please add any additional cookies your website uses below (e.g. Google Analytics).
+        </span>
+    </div>
+    <p>
+        This privacy policy sets out how this website (hereafter "the Store") uses and protects any information that
+        you give the Store while using this website. The Store is committed to ensuring that your privacy is protected.
+        Should we ask you to provide certain information by which you can be identified when using this website, then
+        you can be assured that it will only be used in accordance with this privacy statement. The Store may change
+        this policy from time to time by updating this page. You should check this page from time to time to ensure
+        that you are happy with any changes.
+    </p>
+    <h2>What we collect</h2>
+    <p>We may collect the following information:</p>
+    <ul>
+        <li>name</li>
+        <li>contact information including email address</li>
+        <li>demographic information such as postcode, preferences and interests</li>
+        <li>other information relevant to customer surveys and/or offers</li>
+    </ul>
+    <p>
+        For the exhaustive list of cookies we collect see the <a href="#list">List of cookies we collect</a> section.
+    </p>
+    <h2>What we do with the information we gather</h2>
+    <p>
+        We require this information to understand your needs and provide you with a better service,
+        and in particular for the following reasons:
+    </p>
+    <ul>
+        <li>Internal record keeping.</li>
+        <li>We may use the information to improve our products and services.</li>
+        <li>
+            We may periodically send promotional emails about new products, special offers or other information which we
+            think you may find interesting using the email address which you have provided.
+        </li>
+        <li>
+            From time to time, we may also use your information to contact you for market research purposes.
+            We may contact you by email, phone, fax or mail. We may use the information to customise the website
+            according to your interests.
+        </li>
+    </ul>
+    <h2>Security</h2>
+    <p>
+        We are committed to ensuring that your information is secure. In order to prevent unauthorised access or
+        disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and
+        secure the information we collect online.
+    </p>
+    <h2>How we use cookies</h2>
+    <p>
+        A cookie is a small file which asks permission to be placed on your computer's hard drive.
+        Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit
+        a particular site. Cookies allow web applications to respond to you as an individual. The web application
+        can tailor its operations to your needs, likes and dislikes by gathering and remembering information about
+        your preferences.
+    </p>
+    <p>
+        We use traffic log cookies to identify which pages are being used. This helps us analyse data about web page
+        traffic and improve our website in order to tailor it to customer needs. We only use this information for
+        statistical analysis purposes and then the data is removed from the system.
+    </p>
+    <p>
+        Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find
+        useful and which you do not. A cookie in no way gives us access to your computer or any information about you,
+        other than the data you choose to share with us. You can choose to accept or decline cookies.
+        Most web browsers automatically accept cookies, but you can usually modify your browser setting
+        to decline cookies if you prefer. This may prevent you from taking full advantage of the website.
+    </p>
+    <h2>Links to other websites</h2>
+    <p>
+        Our website may contain links to other websites of interest. However, once you have used these links
+        to leave our site, you should note that we do not have any control over that other website.
+        Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst
+        visiting such sites and such sites are not governed by this privacy statement.
+        You should exercise caution and look at the privacy statement applicable to the website in question.
+    </p>
+    <h2>Controlling your personal information</h2>
+    <p>You may choose to restrict the collection or use of your personal information in the following ways:</p>
+    <ul>
+        <li>
+            whenever you are asked to fill in a form on the website, look for the box that you can click to indicate
+            that you do not want the information to be used by anybody for direct marketing purposes
+        </li>
+        <li>
+            if you have previously agreed to us using your personal information for direct marketing purposes,
+            you may change your mind at any time by letting us know using our Contact Us information
+        </li>
+    </ul>
+    <p>
+        We will not sell, distribute or lease your personal information to third parties unless we have your permission
+        or are required by law to do so. We may use your personal information to send you promotional information
+        about third parties which we think you may find interesting if you tell us that you wish this to happen.
+    </p>
+    <p>
+        You may request details of personal information which we hold about you under the Data Protection Act 1998.
+        A small fee will be payable. If you would like a copy of the information held on you please email us this
+        request using our Contact Us information.
+    </p>
+    <p>
+        If you believe that any information we are holding on you is incorrect or incomplete,
+        please write to or email us as soon as possible, at the above address.
+        We will promptly correct any information found to be incorrect.
+    </p>
+    <h2><a name="list"></a>List of cookies we collect</h2>
+    <p>The table below lists the cookies we collect and what information they store.</p>
+    <table class="data-table data-table-definition-list">
+        <thead>
+        <tr>
+            <th>Cookie Name</th>
+            <th>Cookie Description</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>FORM_KEY</th>
+                <td>Stores randomly generated key used to prevent forged requests.</td>
+            </tr>
+            <tr>
+                <th>PHPSESSID</th>
+                <td>Your session ID on the server.</td>
+            </tr>
+            <tr>
+                <th>GUEST-VIEW</th>
+                <td>Allows guests to view and edit their orders.</td>
+            </tr>
+            <tr>
+                <th>PERSISTENT_SHOPPING_CART</th>
+                <td>A link to information about your cart and viewing history, if you have asked for this.</td>
+            </tr>
+            <tr>
+                <th>STF</th>
+                <td>Information on products you have emailed to friends.</td>
+            </tr>
+            <tr>
+                <th>STORE</th>
+                <td>The store view or language you have selected.</td>
+            </tr>
+            <tr>
+                <th>USER_ALLOWED_SAVE_COOKIE</th>
+                <td>Indicates whether a customer allowed to use cookies.</td>
+            </tr>
+            <tr>
+                <th>MAGE-CACHE-SESSID</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>MAGE-CACHE-STORAGE</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>MAGE-CACHE-STORAGE-SECTION-INVALIDATION</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>MAGE-CACHE-TIMEOUT</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>SECTION-DATA-IDS</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>PRIVATE_CONTENT_VERSION</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>X-MAGENTO-VARY</th>
+                <td>Facilitates caching of content on the server to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>MAGE-TRANSLATION-FILE-VERSION</th>
+                <td>Facilitates translation of content to other languages.</td>
+            </tr>
+            <tr>
+                <th>MAGE-TRANSLATION-STORAGE</th>
+                <td>Facilitates translation of content to other languages.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>404 Not Found - SM</title>
+      <identifier>sm-no-route</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="sm-notfound">
+	<img src="{{media url="wysiwyg/404page/not-found.png"}}" alt="404 Image" />
+	<div class="not-found-title">Oops, Sorry We Can't Find That Page</div>
+	<p class="not-found-subtitle">Either something went wrong of the page doesn't exist anymore.</p>
+	<a class="back2home" href="{{store url=""}}">Back to home</a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+  </pages>
+</root>

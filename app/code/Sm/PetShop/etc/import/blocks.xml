@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_item>
+      <title>PetShop - Footer 1 Content</title>
+      <identifier>footer-1-content</identifier>
+      <content><![CDATA[<div class="footer-top">
+<div class="container">
+<div class="row justify-content-end">
+<div class="subcribe-footer-content col-lg-8">
+<div class="subcribe-footer-title">Subscribe Our Newsletter</div>
+{{block class="Magento\Newsletter\Block\Subscribe" template="subscribe-footer.phtml"}}</div>
+</div>
+</div>
+</div>
+<div class="footer-middle">
+<div class="container">
+<div class="row justify-content-end">
+<div class="col-lg-8">
+<div class="row">
+<div class="col-md-3 col-sm-6">
+<div class="block-footer">
+<div class="block-footer-title">Account</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">Policy</a></li>
+<li><a href="#">System Program</a></li>
+<li><a href="#">Return</a></li>
+<li><a href="#">Site Map</a></li>
+<li><a href="#">Healthy</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="block-footer">
+<div class="block-footer-title">Information</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Shipping &amp; Return</a></li>
+<li><a href="#">Customer FAQ</a></li>
+<li><a href="#">Care Tips</a></li>
+<li><a href="#">Size Charts</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="block-footer">
+<div class="logo-ft"><a href="#"><img src="{{media url="wysiwyg/footer/logo-footer.png"}}" alt=""></a></div>
+<div class="block-footer-content footer-contact">
+<ul>
+<li class="address">2420 W Division St St Cloud, Minnesota</li>
+<li class="email">Email: support@magento.com</li>
+</ul>
+</div>
+<div class="social-footer">
+<ul>
+<li><a title="Facebook" href="https://www.facebook.com/MagenTech"><img src="{{media url="wysiwyg/footer/icon-facebook.png"}}" alt=""></a></li>
+<li><a title="Twitter" href="https://twitter.com/MagenTech"><img src="{{media url="wysiwyg/footer/icon-twitter.png"}}" alt=""></a></li>
+<li><a title="Instagram" href="#"> <img src="{{media url="wysiwyg/footer/icon-instagram.png"}}" alt=""> </a></li>
+<li><a title="Youtube" href="https://www.youtube.com/user/smartaddons"> <img src="{{media url="wysiwyg/footer/icon-youtube.png"}}" alt=""></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Megamenu Horizontal Config</title>
+      <identifier>megamenu-horizontal</identifier>
+      <content><![CDATA[<div class="horizontal-menu">{{block class="Sm\MegaMenu\Block\MegaMenu\View" template="Sm_MegaMenu::horizontal.phtml" theme="1" group_id="1"}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - About Us Content</title>
+      <identifier>about-us-content</identifier>
+      <content><![CDATA[<div class="container">
+<div class="block-welcome">
+<div class="bonus-title">
+<h1>Welcome to pet shop</h1>
+<h2 class="text-theme-color">Welcome to pet shop</h2>
+</div>
+<div class="bonus-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Excepteur sint occaecat cupidatat .</div>
+<div class="about-author">
+<div class="image"><img src="{{media url="wysiwyg/about-us/signature.png "}}" alt=""></div>
+<div class="info-author">
+<h4 class="text-theme-color">Founder/CEO</h4>
+<h5>Ronnie Peterson</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row policy-shop" style="margin-bottom: 65px;">
+<div class="col-md-4 col-sm-12">
+<div class="item">
+<div class="icon"><img class="mark-lazy" src="{{media url="wysiwyg/about-us/icon1.png "}}" alt=""></div>
+<div class="content">
+<h3>DELIVERED WITH CARE</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, labore et.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-12">
+<div class="item">
+<div class="icon"><img class="mark-lazy" src="{{media url="wysiwyg/about-us/icon2.png "}}" alt=""></div>
+<div class="content">
+<h3>EXCELLENT QUALITY</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, labore et.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-12">
+<div class="item">
+<div class="icon"><img class="mark-lazy" src="{{media url="wysiwyg/about-us/icon3.png "}}" alt=""></div>
+<div class="content">
+<h3>FASTEST DELIVERY</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, labore et.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="blog-video" style="margin-bottom: 100px;"><img src="{{media url="wysiwyg/about-us/bg-about-video.jpg "}}" alt=""> <a class="fancybox-media" href="https://www.youtube.com/watch?v=nlCZcFyQ0ZM">Youtube</a></div>
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<div class="block-whychoose">
+<div class="bonus-title"><strong>What can we do for you ?</strong></div>
+<div class="bonus-content">
+<div id="accordionExample" class="accordion">
+<div class="card">
+<div id="headingOne" class="card-header"><a class="title-collapse" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> Shipping &amp; Returns </a></div>
+<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+<div class="card-body">
+<p style="margin-bottom: 30px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
+</div>
+</div>
+</div>
+<div class="card">
+<div id="headingTwo" class="card-header"><a class="title-collapse collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Secure Shopping </a></div>
+<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+<div class="card-body">
+<p style="margin-bottom: 30px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<div id="headingThree" class="card-header"><a class="title-collapse collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> International Shipping </a></div>
+<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+<div class="card-body">
+<p style="margin-bottom: 30px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<div id="headingFour" class="card-header"><a class="title-collapse collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Affiliates </a></div>
+<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+<div class="card-body">
+<p style="margin-bottom: 30px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="our-member">
+<div class="bonus-title"><strong>What Our Customers Says ?</strong></div>
+<div class="bonus-content">
+<div class="nav-style-1 hover-to-show absolute-nav">
+<div data-owl="owl-slider" data-autoplay="false" data-nav="false" data-dots="true" data-screen0="1" data-screen481="1" data-screen768="1" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="30" data-autoplayhoverpause="false" data-loop="false" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">
+<div class="owl-carousel owl-theme">
+<div class="item">
+<div class="member-image">
+<div class="image-content"><img class="mark-lazy" src="{{media url="wysiwyg/about-us/member/item-1.jpg"}}" alt="Member Image"></div>
+</div>
+<div class="member-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+<div class="member-name">Mark Levinson</div>
+<div class="member-job">Founder &amp; CEO</div>
+</div>
+</div>
+<div class="item">
+<div class="member-image">
+<div class="image-content"><img class="mark-lazy" src="{{media url="wysiwyg/about-us/member/item-2.jpg"}}" alt="Member Image"></div>
+</div>
+<div class="member-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+<div class="member-name">Mark Levinson</div>
+<div class="member-job">Founder &amp; CEO</div>
+</div>
+</div>
+<div class="item">
+<div class="member-image">
+<div class="image-content"><img class="mark-lazy" src="{{media url="wysiwyg/about-us/member/item-3.jpg"}}" alt="Member Image"></div>
+</div>
+<div class="member-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+<div class="member-name">Mark Levinson</div>
+<div class="member-job">Founder &amp; CEO</div>
+</div>
+</div>
+</div>
+<div class="loading-content"><span class="hidden">Loading...</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Google Map</title>
+      <identifier>google-map</identifier>
+      <content><![CDATA[<div class="map"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8352535722393!2d144.95373531573256!3d-37.8173276797518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1svi!2s!4v1558405327045!5m2!1svi!2s" width="770" height="485" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Contact Us Info</title>
+      <identifier>contact-us-info</identifier>
+      <content><![CDATA[<div class="contact-us" style="margin-bottom:50px;">
+<div class="row">
+<div class="col-md-5"><a href="#"><img src="{{media url="wysiwyg/banner/img-contact.jpg"}}" alt=""></a></div>
+<div class="col-md-7">
+<div class="contact-info">
+<div class="block-title"><strong>We're here to help!</strong></div>
+<div class="description">
+<p style="margin-bottom: 20px;">The TRUE customer care team is available Monday - Friday from 7am - 7pm UTC +7. Saturday &amp; Sunday we’re definitely on the links but we'll answer all inquiries as soon as we are back in the office</p>
+<p style="margin-bottom: 20px;">We will do our best to respond as soon as possible; typical response time is within 24 hours.</p>
+<p style="margin-bottom: 20px;">Please check out our FAQ for quick insights on sizing, features and model comparisons</p>
+<p style="margin-bottom: 20px;">Need an exchange/return? <a href="#">Submit your request here.</a></p>
+<p>Thank you and we look forward to connecting with you soon!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="location-contact">
+<h2>Stores Location</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Newsletter Popup Image</title>
+      <identifier>newsletter-popup-image</identifier>
+      <content><![CDATA[<div><a title="Image Newsletter" href="#"><img src="{{media url=&quot;wysiwyg/newsletter/image-newsletter-popup.jpg&quot;}}" alt="Image Newsletter" width="355" height="370" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Newsletter Popup Description</title>
+      <identifier>newsletter-popup-description</identifier>
+      <content><![CDATA[<div class="newsletter-title">
+<h3>Newsletter</h3>
+</div>
+<div class="short-description">Subscribe to the Petshop mailing list to receive updates on new arrivals, special offers and other discount information.</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Product List - Sidebar</title>
+      <identifier>product-sidebar</identifier>
+      <content><![CDATA[<div class="product-sidebar hidden-rating">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::list-sidebar.phtml" title_module="Bestsellers" product_source="best_sellers" select_category="" product_limitation="4" display_countdown="0" date_to=""}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Petshop - Block baner New Arrival</title>
+      <identifier>block-banner-1</identifier>
+      <content><![CDATA[<a href="#"><img src="{{media url="wysiwyg/banner/item-1.jpg"}}" alt="" /></a>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>PetShop - Hotline header</title>
+      <identifier>header-hotline</identifier>
+      <content><![CDATA[<div class="header-hotline"><label>Hotline: </label>+34 (465) 137-8763</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Newsletter Popup Social</title>
+      <identifier>social-newsletter-popup</identifier>
+      <content><![CDATA[<div class="socials-popup">
+<div class="socials-popup">
+<ul class="social-list">
+<li><a class="icon-facebook" title="Facebook" href="https://www.facebook.com/MagenTech"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="https://twitter.com/MagenTech"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+<li><a class="icon-youtube" title="Youtube" href="https://www.youtube.com/user/smartaddons"> <span class="hidden">Youtube</span> </a></li>
+<li><a class="icon-linkedin" title="Linkedin" href="https://www.linkedin.com/in/magentech/"> <span class="hidden">Linkedin</span> </a></li>
+</ul>
+
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>PetShop - Menu Header Right</title>
+      <identifier>header-menu-right</identifier>
+      <content><![CDATA[<ul class="menu">
+<li><a title="Blog" href="{{store url="blog"}}">Blog</a></li>
+<li><a title="About Us" href="{{store url="about-us.html"}}">About Us</a></li>
+<li><a title="Contact us" href="{{store url="contact"}}">Contact us</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>PetShop - Work time</title>
+      <identifier>work-time-ft</identifier>
+      <content><![CDATA[<div class="work-time">
+<h3 class="title">Working Time</h3>
+<ul>
+<li>Monday
+<p class="time">07:00 - 19:30 PM</p>
+</li>
+<li>Tuesday
+<p class="time">07:00 - 19:30 PM</p>
+</li>
+<li>Wednesday
+<p class="time">07:00 - 19:30 PM</p>
+</li>
+<li>Thursday
+<p class="time">07:00 - 19:30 PM</p>
+</li>
+<li>Friday
+<p class="time">07:00 - 19:30 PM</p>
+</li>
+<li>Saturday
+<p class="time">07:00 - 19:30 PM</p>
+</li>
+<li>Sunday
+<p class="time">07:00 - 19:30 PM</p>
+</li>
+</ul>
+<h4>Emergency Number</h4>
+<h2>1-800-619-746</h2>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Petshop - Block baner On Sale</title>
+      <identifier>block-banner-2</identifier>
+      <content><![CDATA[<a href="#"><img src="{{media url="wysiwyg/banner/item-2.jpg"}}" alt="" /></a>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Petshop - Block baner Top Rated</title>
+      <identifier>block-banner-3</identifier>
+      <content><![CDATA[<p><a href="#"><img src="{{media url="wysiwyg/banner/item-3.jpg"}}" alt=""></a></p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Contact Us Address</title>
+      <identifier>contact-address</identifier>
+      <content><![CDATA[<div class="item-contact item1">
+<h3>Pet shop - New York</h3>
+<ul class="info-contact">
+<li class="address">433 East 13th Street, New York, NY 10009, United State of America</li>
+<li class="phone">+4 (167) 138-6463</li>
+<li class="time">7 AM - 9 PM (Mon - Sun)</li>
+</ul>
+</div>
+<div class="item-contact ">
+<h3>Pet shop - New York</h3>
+<ul class="info-contact">
+<li class="address">433 East 13th Street, New York, NY 10009, United State of America</li>
+<li class="phone">+4 (167) 138-6463</li>
+<li class="time">7 AM - 9 PM (Mon - Sun)</li>
+</ul>
+</div>
+<div class="item-contact ">
+<h3>Pet shop - New York</h3>
+<ul class="info-contact">
+<li class="address">433 East 13th Street, New York, NY 10009, United State of America</li>
+<li class="phone">+4 (167) 138-6463</li>
+<li class="time">7 AM - 9 PM (Mon - Sun)</li>
+</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Megamenu Horizontal Bonus Config</title>
+      <identifier>megamenu-horizontal-bonus</identifier>
+      <content><![CDATA[{{block class="Sm\MegaMenu\Block\MegaMenu\View" template="Sm_MegaMenu::horizontal.phtml" theme="1" group_id="2"}}]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+  </blocks>
+</root>
